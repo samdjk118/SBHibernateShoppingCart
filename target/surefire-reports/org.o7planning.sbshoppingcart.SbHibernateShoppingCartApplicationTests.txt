@@ -1,4 +1,0 @@
--------------------------------------------------------------------------------
-Test set: org.o7planning.sbshoppingcart.SbHibernateShoppingCartApplicationTests
--------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 16.186 s - in org.o7planning.sbshoppingcart.SbHibernateShoppingCartApplicationTests
