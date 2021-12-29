@@ -72,4 +72,3 @@ $ docker run -p 8080:8080 \
        --name shopping-cart \
        shopping-cart:1.0
 ```
-Build 
