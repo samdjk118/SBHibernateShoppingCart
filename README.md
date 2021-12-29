@@ -17,6 +17,9 @@ import SQL
 ```
 mysql -u <user> -p <password> <DBName>  < mydatabase.sql
 ```
+Remember add database user and password 
+if database IP is not localhost also need change
+In `src/main/resources/application.properties`
 ### Maven Wrapper
 Go to root folder and type:
 ```
