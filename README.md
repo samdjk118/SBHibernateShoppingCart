@@ -11,6 +11,12 @@ UserInfo
 |employee1|123|
 |manager1|123|
 
+### Prepare Database
+In this project is MySQL version `5.1`
+import SQL
+```
+mysql -u <user> -p <password> <DBName>  < mydatabase.sql
+```
 ### Maven Wrapper
 Go to root folder and type:
 ```
@@ -54,3 +60,16 @@ $ java -jar target/SbHibernateShoppingCart-0.0.1-SNAPSHOT.jar
 ```
 Exit application, press Ctrl+C
 # Dockerfile
+Run java using Docker:
+```
+$ mvn clean package
+$ docker build -t shopping-cart:1.0 .
+```
+Run docker container:
+```
+$ docker run -p 8080:8080 \
+       -d --restart always \
+       --name shopping-cart \
+       shopping-cart:1.0
+```
+Build 
